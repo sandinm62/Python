@@ -21,4 +21,4 @@ airSeryezha = airPetya
 airKatya = airPetya * 4
 
 
-print(airPetya, airKatya, airSeryezha)
+print('Петя:', airPetya, '\nКатя:', airKatya, '\nСережа:', airSeryezha)
