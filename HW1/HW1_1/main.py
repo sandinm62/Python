@@ -3,6 +3,7 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0)
 
+print("Enter number:")
 number = int(input())
 summ = 0
 while number > 0:
@@ -11,4 +12,4 @@ while number > 0:
     summ += remains
     number //= 10
 
-print(summ)
+print("Summ = ", summ)
