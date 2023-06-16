@@ -29,7 +29,5 @@ while number > 0:
 
 if sum1 == sum2:
     print("Yes")
-elif number == -1:
-    print("Спасибо за внимание")
 else:
     print("No")
