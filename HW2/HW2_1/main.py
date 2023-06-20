@@ -5,13 +5,14 @@
 
 import random
 
+print("Введите колличество монет которые будут подброшены случайным образом")
 number = int(input())
 count = 0
 eagle = 0
 tails = 0
 while count < number:
     money = random.randint(0, 1)
-    print(money)
+    # print(money)                              для  проверки можно активировать строку и убедится сколько монет было со значениме ноль, а сколько со значением один
     if money == 0:
         tails+=1
     else:
