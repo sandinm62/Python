@@ -18,7 +18,10 @@ print(*list_1)
 numberCheck = int(input("Введите значение которое хотите проверить: "))
 
 for i in range(len(list_1)):
-    if (list_1[i] == numberCheck) or (list_1[i] % numberCheck == 1) or (numberCheck % list_1[i] == 1):
+    if (list_1[i] == numberCheck):
         print(list_1[i])
         break
-
+    elif list_1[i] > numberCheck and list_1[i] % numberCheck == 1:
+        print(list_1[i])
+        break
+    
