@@ -33,10 +33,10 @@ for i in range(len(numericFirst) + len(numericSeconde)):
             print(minValue1)
             countNumeric1 += 1
             countNumeric2 += 1
-    elif countNumeric1 > len(numericFirst) and countNumeric2 < len(numericSeconde):
+    elif countNumeric1 >= len(numericFirst) and countNumeric2 < len(numericSeconde):
         print(numericSeconde[countNumeric2])
         countNumeric2 += 1
-    elif countNumeric1 < len(numericFirst) and countNumeric2 > len(numericSeconde):
+    elif countNumeric1 < len(numericFirst) and countNumeric2 >= len(numericSeconde):
         print(numericFirst[countNumeric1])
         countNumeric1 += 1
 
