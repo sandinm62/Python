@@ -25,6 +25,8 @@ numericSeconde = tuple(set(sorted(numericSeconde)))
 def clear_console():                                            # чистим консоль чтобы увидеть ответ
     os.system('cls')
 clear_console()
+print(*numericFirst)
+print(*numericSeconde)
 
 for i in range(len(numericFirst)):
     for j in range(len(numericSeconde)):
