@@ -6,14 +6,14 @@
 
 def summ(numberSum, count = 0):
     if count == numberSum:
-        print(count)
+        
         return count
     else:
-        summ(numberSum, count + 1)
+        return summ(numberSum, count + 1)
 
 
 number1 = int(input())
 number2 = int(input())
 sum = number1 + number2
 
-summ(sum)
+print(summ(sum))
