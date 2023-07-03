@@ -7,18 +7,16 @@ def degree(a, b, count = 1, numDegree = 1):
     
     if count == b:
         numDegree = numDegree * a
-        print(numDegree)
         return numDegree
     else:
-        numDegree = numDegree * a
-        # print(numDegree)
+        numDegree = numDegree * a       
         count += 1
-        degree(a, b, count, numDegree)
+        return(degree(a, b, count, numDegree))
 
 
 number = int(input('Введите число которое будете возводить в степень: '))
 degreNumber = int(input('Введите степень числа: '))
 
-degree(number, degreNumber) 
+print(degree(number, degreNumber)) 
 
     
